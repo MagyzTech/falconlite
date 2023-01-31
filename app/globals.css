@@ -119,10 +119,24 @@ body {
   display: grid;
 }
 
+.wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 /* bigger screen */
 @media (min-width: 1023px) {
   .btn {
     width: 80%;
+  }
+
+  .wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
   }
 }
 

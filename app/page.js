@@ -20,7 +20,7 @@ export default function Home() {
     }
   }, [showActivation]);
   return (
-    <main className="sm:pr-[6rem]">
+    <main className="lg:pr-[6rem]">
       {showActivation ? (
         <EmailVerification />
       ) : (
