@@ -52,7 +52,7 @@ const EmailVerification = () => {
     }
   };
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center text-black">
       <h2 className="font-bold text-2xl mb-2">
         Kindly Enter Email Verification Code
       </h2>
