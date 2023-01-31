@@ -130,6 +130,14 @@ const Register = ({ setActivation }) => {
                 />
               </div>
 
+              <div className="flex items-center mb-8">
+                <input type="checkbox" name="remember" id="remember" />
+                <label htmlFor="remember" className="ml-4">
+                  {" "}
+                  Remember Password
+                </label>
+              </div>
+
               <div className="flex justify-center">
                 <button
                   className="btn relative text-black rounded-lg transition-all ease-in-out hover:bg-[#06c0f4]"
@@ -143,6 +151,7 @@ const Register = ({ setActivation }) => {
           )}
         </Formik>
       </div>
+
       <div className="flex justify-center  py-4 ">
         <p className="flex items-center space-x-2 flex-wrap text-sm">
           <span>Already have an account?</span>{" "}
