@@ -66,7 +66,7 @@ const Register = ({ setActivation }) => {
   //   verification_code
   // "14AE0"
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col text-black">
       <h2 className="font-bold text-2xl mb-2">Create an account</h2>
       <p>Register on our website with your correct email and informations.</p>
 
