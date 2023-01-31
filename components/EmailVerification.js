@@ -63,10 +63,10 @@ const EmailVerification = () => {
 
       <div className="mt-[2rem] w-full">
         {encounterError && <ErrorMessage message={encounterError} />}
-        <div className="h-[200px] sm:h-[300px] mt-[50px] sm:mt-[100px] flex justify-center items-center w-full">
+        <div className="h-[200px] lg:h-[300px] mt-[50px] lg:mt-[100px] flex justify-center items-center w-full">
           {isVerified ? (
             <div className="flex flex-col items-center space-y-3 rounded-lg bg-white p-8 w-full transition-all ease-in-out">
-              <h4 className="text-[24px] sm:text-[32px] text-green-600 font-bold leading-[42px]">
+              <h4 className="text-[24px] lg:text-[32px] text-green-600 font-bold leading-[42px]">
                 Congratulations!
               </h4>
               <p>{verificationMessage}.</p>

@@ -12,8 +12,8 @@ export default function RootLayout({ children }) {
       <head />
       <body>
         <div className={styles.main}>
-          <div className="sm:px-[4rem] sm:py-8 py-8 px-4">
-            <div>
+          <div className="lg:px-[4rem] lg:py-8 py-8 px-4">
+            <div className="wrapper">
               <div className="flex justify-center mb-5">
                 <div className="relative w-[200px] h-[70px]">
                   <Image
@@ -26,10 +26,10 @@ export default function RootLayout({ children }) {
                   />
                 </div>
               </div>
-              {children}
+              <div>{children}</div>
             </div>
           </div>
-          <div className="relative bg-[#01C8FF] w-full h-full hidden sm:block">
+          <div className="relative bg-[#01C8FF] w-full h-full hidden lg:block">
             <div className={styles.illustrate}></div>
           </div>
         </div>
