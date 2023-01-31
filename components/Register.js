@@ -14,9 +14,6 @@ const Register = ({ setActivation }) => {
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [encounterError, setEncounterError] = useState(null);
-
-  console.log(setActivation);
-
   //   form validation schema
   const validate = Yup.object({
     name: Yup.string().required("Name is required"),
